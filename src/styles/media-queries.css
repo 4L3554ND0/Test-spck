@@ -11,6 +11,14 @@
   .main-container{
     margin-right: 10px;
   }
+  .playlist-container{
+    max-height: 1804px;
+  }
+   .offer__scroll-container {
+  max-height: 1604px;
+  max-width: 560px;
+  border-radius: 10px;
+  }
   .header__search{
     width: 250px;
   }
@@ -19,9 +27,10 @@
     height: auto;
   }
   .playlist-container{
-    height: 55vh;
+    height: 100vh;
   }
   .music-display {
     display: block;
   }
+
 }

@@ -63,3 +63,5 @@ document.getElementById('play-button').addEventListener('click', togglePlay);
 audioPlayer.addEventListener('timeupdate', updateProgress);
 
 document.getElementById('next-button').addEventListener('click', nextSong);
+
+console.log(audioPlayer)
