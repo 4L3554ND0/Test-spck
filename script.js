@@ -2,7 +2,7 @@ document.getElementById('searchButton').addEventListener('click', function(event
         event.preventDefault(); // Impede o comportamento padrão do link
         document.getElementById('search-input').focus(); // Foca no input de pesquisa
     });
- /* 
+ 
     let playlist = [
   { title: "João e Maria", artist: "Chico Buarque", src: "src/assets/music/misica1.mp3", img: "src/assets/images/capa1.jpg" },
   { title: "Manhã de Carnaval", artist: "Anna Salleh", src: "src/assets/music/misica2.mp3", img: "/src/assets/images/capa2.jpg" },
@@ -63,4 +63,3 @@ document.getElementById('play-button').addEventListener('click', togglePlay);
 audioPlayer.addEventListener('timeupdate', updateProgress);
 
 document.getElementById('next-button').addEventListener('click', nextSong);
-*/
