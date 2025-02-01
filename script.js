@@ -5,8 +5,8 @@ document.getElementById('searchButton').addEventListener('click', function(event
  
     let playlist = [
   { title: "João e Maria", artist: "Chico Buarque", src: "src/assets/music/misica1.mp3", img: "src/assets/images/capa1.jpg" },
-  { title: "Manhã de Carnaval", artist: "Anna Salleh", src: "src/assets/music/misica2.mp3", img: "/src/assets/images/capa2.jpg" },
-  { title: "Construção", artist: "Chico Buarque", src: "src/assets/music/misica3.mp3", img: "src/assets/images/capa3.jpg" }
+  { title: "Manhã de Carnaval", artist: "Anna Salleh", src: "src/assets/music/musica2.mp3", img: "/src/assets/images/capa2.jpg" },
+  { title: "Construção", artist: "Chico Buarque", src: "src/assets/music/musica3.mp3", img: "src/assets/images/capa3.jpg" }
 ];
 
 let currentSongIndex = 0;
