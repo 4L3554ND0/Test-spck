@@ -1,0 +1,27 @@
+@media screen and (max-width: 1200px) {
+  .offer__list-item {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 1015px) {
+  .offer__list-item {
+    grid-template-columns: 1fr 1fr;
+  }
+  .main-container{
+    margin-right: 10px;
+  }
+  .header__search{
+    width: 250px;
+  }
+  .cort {
+    overflow-y: none;
+    height: auto;
+  }
+  .playlist-container{
+    height: 55vh;
+  }
+  .music-display {
+    display: block;
+  }
+}

@@ -1,0 +1,94 @@
+.music-display {
+  height: 65px;
+    background-color: #352727;
+    color: #b3b3b3;
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 10px;
+    align-items: center;
+    position: relative;
+}
+
+.music-display__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.music-display__left {
+    display: flex;
+    align-items: center;
+}
+
+.music-display__album-cover {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    animation: girar 10s infinite linear;
+}
+
+@keyframes girar {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.music-display__info {
+    margin-left: 9px;
+    display: flex;
+    text-overflow: ellipsis;
+    flex-direction: column;
+}
+
+.music-display__song-title {
+    font-size: 14px;
+    font-weight: 700;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+}
+
+.music-display__artist {
+    margin-top: 4px;
+    font-size: 12px;
+    font-weight: 400;
+    overflow: hidden;
+}
+
+.music-display__right {
+    display: flex;
+    align-items: center;
+}
+
+.music-display__play,
+.music-display__next {
+    background-color: transparent;
+    border: none;
+    color: #b3b3b3;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.music-display__play:hover,
+.music-display__next:hover {
+    color: #fff;
+}
+
+.music-display__progress {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background-color: #695555;
+    border-radius: 2px;
+    margin: 8px 16px;
+}
+
+.music-display__progress-filled {
+    height: 5px;
+    background-color: #b3b3b3;
+    border-radius: 2px;
+}
