@@ -8,9 +8,6 @@
   .offer__list-item {
     grid-template-columns: 1fr 1fr;
   }
-  .main-container{
-    margin-right: 10px;
-  }
   .playlist-container{
     max-height: 1804px;
   }
