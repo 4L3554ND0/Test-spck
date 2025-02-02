@@ -1,5 +1,7 @@
 .music-display {
-  height: 65px;
+  height: 90px;
+  position: relative;
+  z-index: 1; 
     background-color: #352727;
     color: #b3b3b3;
     border-radius: 8px;
@@ -64,6 +66,7 @@
 
 .music-display__play,
 .music-display__next {
+  padding:  7px;
     background-color: transparent;
     border: none;
     color: #b3b3b3;

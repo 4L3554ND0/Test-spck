@@ -1,5 +1,7 @@
 <!DOCTYPE html>
+
 <html>
+
   <head>
     <meta charset="UTF-8"> 
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -7,12 +9,15 @@
     <link rel="stylesheet" href="./src/styles/reset.css"/>
     <link rel="stylesheet" href="./src/styles/vars.css"/>
     <link rel="stylesheet" href="./src/styles/sidebar-library.css">
+    <link rel="stylesheet" href="./src/styles/weapper.css" />
     <link rel="stylesheet" href="./src/styles/display.css">
     <link rel="stylesheet" href="./src/styles/footer.css">
     <link rel="stylesheet" href="./src/styles/main-content.css">
     <link rel="stylesheet" href="./src/styles/media-queries.css">
+    
+    
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
-        integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
+    integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
       integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous" />
   </head>
@@ -107,6 +112,78 @@
         </div>
     </div> 
     
+ <div class="wrapper">
+    <span class="icon-close">
+     <ion-icon name="close-outline"></ion-icon>
+    </span>
+      <div class="from-box login">
+        <h2>login</h2>
+        <form action="#">
+          <div class="input-box">
+            <span class="icon-login">
+              <ion-icon name="mail"></ion-icon>
+            </span>
+            <input type="email" required/>
+            <label>Email</label>
+          </div>
+          <div class="input-box">
+            <span class="icon-login">
+              <ion-icon name="lock-closed"></ion-icon>
+            </span>
+            <input type="password" required/>
+            <label>senha</label>
+          </div>
+          <div class="remember-forgot">
+            <label>
+              <input type="checkbox"/>remember me</label>
+              <a href="#">forgot password</a>
+          </div>
+          <button class="btn" type="submit">login</button>
+          <div class="login-register">
+            <p>Don't have an account?
+             <a href="#" class="register-link">register</a>
+            </p>
+          </div>
+        </form>
+      </div>
+      <div class="from-box register">
+        <h2>registration</h2>
+         <form action="#">
+          <div class="input-box">
+            <span class="icon-login">
+              <ion-icon name="person"></ion-icon>
+            </span>
+            <input type="text" required/>
+            <label>username</label>
+          </div>
+          <div class="input-box">
+            <span class="icon-login">
+              <ion-icon name="mail"></ion-icon>
+            </span>
+            <input type="email" required/>
+            <label>email</label>
+          </div>
+          <div class="input-box">
+            <span class="icon-login">
+              <ion-icon name="lock-closed"></ion-icon>
+            </span>
+            <input type="password" required/>
+            <label>senha</label>
+          </div>
+          <div class="remember-forgot">
+            <label>
+              <input type="checkbox"/>i agree to the terms & conditions</label>
+          </div>
+          <button class="btn" type="submit">register</button>
+          <div class="login-register">
+            <p>already have an account?
+             <a href="#" class="login-link">login</a>
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+    
     <main>
       <div class="main-container">
         <nav class="header__navigation">
@@ -124,7 +201,7 @@
           </div>
           <div class="header__login">
             <button class="subscribe">Inscreva-se</button>
-            <button class="login">Entrar</button>
+            <button class="btnLogin-popup login">Entrar</button>
          </div>
         </nav>
         <div class="playlist-container">
@@ -289,6 +366,11 @@
         </div>
       </div>
     </main>
-    <script src="script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+
+  <script  nomodule  src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/wionicons.js"> </script>
+  <script src="./src/scrip/wrapper.js"></script>
+  <script src="./src/scrip/script.js"></script>
+
   </body>
 </html>

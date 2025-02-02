@@ -1,14 +1,17 @@
 body{
   font-family: var(--font-dm-sans);
   background-color: #140202;
+  display: flex;
+  display: flex;
 }
 .sidebar{
   position: fixed;
   top: 0;
   left: 0;
   bottom: 0;
+  right: 0;
   padding: 12px;
-  width: 300px; 
+  width: 320px; 
 }
 .sidebar__navigation{
   background-color: var(--bg-background-color);
